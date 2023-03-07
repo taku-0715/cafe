@@ -325,6 +325,10 @@ header
   margin-top: 30px;
 }
 
+.drawer-nav {
+  z-index: 100;
+}
+
 .header-nav {
   background: #382620;
   color: #fff;
