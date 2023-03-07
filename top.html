@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <!--グーグルフォント-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Damion&family=Noto+Serif+JP&family=Patua+One&display=swap" rel="stylesheet"/>
+    <!--グーグルフォント-->
+
+    <!-- drawer.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css">
+    <!-- jquery & iScroll -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+    <!-- drawer.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="./js/script.js"></script>
+    <title>Document</title>
+  </head>
+  <body class="drawer drawer--right">
+    <header class="header" role="banner">
+      <!-- ハンバーガーボタン -->
+      <button type="button" class="drawer-toggle drawer-hamburger header__button">
+        <span class="sr-only">toggle navigation</span>
+        <span class="drawer-hamburger-icon"></span>
+      </button>
+      <!-- ナビゲーションの中身 -->
+        <nav class="drawer-nav" role="navigation">
+          <div class="drawer-menu header-nav">
+            <h1 class="header__logo">
+              <a href=""><img src="./img/logo_light@2x.png" alt="" /></a>
+            </h1>
+            <div class="header__menu">
+              <ul class="header-nav__list">
+                <li class="header-nav__item"><a href="./top.html">TOP</a></li>
+                    <li class="header-nav__item"><a href="./concept.html">CONCEPT</a></li>
+                    <li class="header-nav__item"><a href="./menu.html">MENU</a></li>
+                    <li class="header-nav__item"><a href="./news.html">NEWS</a></li>
+                    <li class="header-nav__item"><a href="./shop.html">SHOP</a></li>
+                    <li class="header-nav__item"><a href="./gift.html">GIFT</a></li>
+                    <li class="header-nav__item"><a href="./contact.html">CONTACT</a></li>
+              </ul>
+              <div class="header__icon">
+                <ul class="sns-icon__list">
+                  <li class="sns-icon__item"><a href=""><img src="./img/icon_twitter-light@2x.png" alt=""></a></li>
+                <li class="sns-icon__item"><a href=""><img src="./img/icon_instagram-light@2x.png" alt=""></a></li>
+                <li class="sns-icon__item"><a href=""><img src="./img/icon_youtube-light@2x.png" alt=""></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+    </header>
+
+    
+        
+        
+        
+    <main>
+      <div class="top">
+        <div class="top__container">
+          <div class="top__menu is-pc">
+            <h1 class="top__logo">
+              <a href=""><img src="./img/logo_dark@2x.png" alt="" /></a>
+            </h1>
+            <!--top_nav-->
+            <nav class="top-nav">
+              <ul class="top-nav__list">
+                <li class="top-nav__item nav__item">
+                  <a href="">
+                    <span class="top-nav__link-en">TOP</span>
+                    <span class="top-nav__link-jp">トップ</span>
+                  </a>
+                </li>
+                <li class="top-nav__item nav__item">
+                  <a href="">
+                    <span class="top-nav__link-en">CONCEPT</span>
+                    <span class="top-nav__link-jp">コンセプト</span>
+                  </a>
+                </li>
+                <li class="top-nav__item nav__item">
+                  <a href="">
+                    <span class="top-nav__link-en">MENU</span>
+                    <span class="top-nav__link-jp">メニュー</span>
+                  </a>
+                </li>
+                <li class="top-nav__item nav__item">
+                  <a href="">
+                    <span class="top-nav__link-en">NEWS</span>
+                    <span class="top-nav__link-jp">お知らせ</span>
+                  </a>
+                </li>
+                <li class="top-nav__item nav__item">
+                  <a href="">
+                    <span class="top-nav__link-en">SHOP</span>
+                    <span class="top-nav__link-jp">店舗情報</span>
+                  </a>
+                </li>
+                <li class="top-nav__item nav__item">
+                  <a href="">
+                    <span class="top-nav__link-en">GIFT</span>
+                    <span class="top-nav__link-jp">ギフト・贈り物</span>
+                  </a>
+                </li>
+                <li class="top-nav__item nav__item">
+                  <a href="">
+                    <span class="top-nav__link-en">CONTACT</span>
+                    <span class="top-nav__link-jp">お問い合わせ</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <!--top_nav-->
+
+            <div class="top__icon">
+              <ul class="top__sns-icon__list">
+                <li class="top__sns-icon__item"><a href=""><img src="./img/icon_twitter-dark@2x.png" alt=""></a></li>
+                <li class="top__sns-icon__item"><a href=""><img src="./img/icon_instagram-dark@2x.png" alt=""></a></li>
+                <li class="top__sns-icon__item"><a href=""><img src="./img/icon_youtube-dark@2x.png" alt=""></a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!--top__visual-->
+          <div class="top__visual">
+            <img src="./img/img_mainvisual1@2x.png" alt="" class="pc-and-tab">
+            <img src="./img/img_mainvisual1_sp@2x.png" alt="" class="is-sp">
+
+            <div class="top__visual__copy pc-and-tab">
+              <p>
+                パスタとコーヒーがとってもおいしい、
+                <br />ほっと落ち着くのんびり空間。
+              </p>
+            </div>
+            <div class="top__visual__copy is-sp">
+              <p>
+                パスタとコーヒーが
+                <br>とってもおいしい、
+                <br />ほっと落ち着くのんびり空間。
+              </p>
+            </div>
+
+            <!--pickup-->
+            <div class="top__pickup__news">
+              <div class="top__pickup__news__container">
+                <p class="section__tag pickup__tag">
+                  <span>カテゴリー名5</span>
+                </p>
+                <div class="pickup__ballon">
+                  <img src="./img/img_balloon-pickup@2x.png" alt="">
+                </div>
+                <article class="top__pickup__news__card">
+                  <a href="./post.html" target="_blank" class="top__pickup__news__card__link">
+                    <div class="top__pickup__news__image">
+                      <img src="./img/img_news1@2x.png" alt="" />
+                    </div>
+                    <div class="top__pickup__card__content">
+                      <time class="top__pickup__news__date">2021.01.01</time>
+                      <h3 class="top__pickup__news__title">
+                        ダミー_国内外から賞賛を受けた選りすぐりのデザイナーが集結し、あらゆる空間が誕生。
+                      </h3>
+                    </div>
+                  </a>
+                </article>
+              </div>
+            </div>
+            <!--pickup-->
+
+            <div class="is-sp top__sp__logo">
+              <img src="./img/logo_light@2x.png" alt="">
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!--top-->
+
+      <!--concept-->
+      <div class="t-concept">
+        <div class="t-concept__container">
+          <img src="./img/bg_coffee-beans@2x.png" alt="" class="t-concept__side__img">
+          <section class="t-concept__content">
+            <h1 class="section__title t-concept__title">CONCEPT</h1>
+            <p class="section__title-ja t-concept__title-ja">当店のこだわり</p>
+
+            <h3 class="t-concept__sub-title">
+              最高のコーヒーと、
+              <br> 時の流れを味わうことができる 
+              <br>手作りカフェ
+            </h3>
+
+            <p class="t-concept__text">
+              ダミー_国内外から賞賛を 
+              <br>受けた選りすぐりのデザイナーが集結し、ガーデニングの設計・建築から料理まで、あらゆる空間が誕生。
+              <br> ダミー_国内外から賞賛を受けた選りすぐりのデザイナーが集結し、ガーデニングの設計・建築から料理まで、あらゆる空間が誕生。
+              <br><br><br>ダミー_国内外から賞賛を受けた選りすぐりのデザイナーが集結し、ガーデニングの設計・建築から料理まで、あらゆる空間が誕生。
+            </p>
+
+            <div class="t-concept__button">
+              <a href="./concept.html" class="section__btn"><span>詳しくはこちら</span></a>
+            </div>
+          </section>
+          <div class="t-concept__img">
+            <img src="./img/img_concept@2x.png" alt="">
+          </div>
+
+        </div>
+      </div>
+      <!--concept-->
+
+      <!--lunch-->
+      <section class="t-lunch">
+        <h1 class="section__title t-lunch__title">SPECIAL LUNCH SET</h1>
+        <p class="section__title-ja t-lunch__sub-title">今月のスペシャルランチセット</p>
+        <div class="t-lunch__container">
+          <div class="t-lunch__tag__block">
+            <picture class="t-lunch__tag">
+              <img src="./img/img_ribbon-text@2x.png" alt="">
+            </picture>
+          </div>
+          <div class="ballon-block">
+            <div class="t-lunch__ballon">
+              <img src="./img/img_balloon-special-lunch-set@2x.png" alt="">
+            </div>
+          </div>
+          <div class="t-lunch__content">
+            <div class="t-lunch__content__box">
+              <ul class="t-lunch__list">
+                <li class="t-lunch__list-item">
+                  <img src="./img/img_special_pasta1@2x.png" alt="">
+                  <div class="t-lunch__list-item__body">
+                    <p class="t-lunch__list-number">A</p>
+                    <p class="t-lunch__list-name">【テキストA】テキストテキストの○○風パスタ</p>
+                  </div>
+                </li>
+                <li class="t-lunch__list-item">
+                  <img src="./img/img_special_pasta2@2x.png" alt="">
+                  <div class="t-lunch__list-item__body">
+                    <p class="t-lunch__list-number">B</p>
+                    <p class="t-lunch__list-name">【テキストB】テキストテキストの○○風パスタ</p>
+                  </div>
+                </li>
+                <li class="t-lunch__list-item">
+                  <img src="./img/img_special_pasta3@2x.png" alt="">
+                  <div class="t-lunch__list-item__body">
+                    <p class="t-lunch__list-number">C</p>
+                    <p class="t-lunch__list-name">【テキストC】テキストテキストの○○風パスタ</p>
+                  </div>
+                </li>
+                <li class="t-lunch__list-item">
+                  <img src="./img/img_special_pasta4@2x.png" alt="">
+                  <div class="t-lunch__list-item__body">
+                    <p class="t-lunch__list-number">D</p>
+                    <p class="t-lunch__list-name">【テキストD】テキストテキストの○○風パスタ</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <div class="t-lunch__set">
+              <div class="t-lunch__set__container">
+                <div class="t-lunch__set__box">
+                  <div class="t-lunch__set__img">
+                    <img src="./img/img_lunch-detail@2x.png" alt="">
+                  </div>
+                  <div class="t-lunch__set__descprition">
+                    <p class="t-lunch__set__name">スペシャルランチセット <br>【選べる3品】</p>
+                    <p class="t-lunch__set__price">1,280 yen</p>
+                    <p class="t-lunch__set__time">(11:00 AM〜14:00 PMまで)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--lunch-->
+
+      <!--grand-->
+      <section class="t-grand">
+        <h1 class="section__title t-grand__title">GRAND MENU</h1>
+        <p class="section__title-ja t-grand__sub-title">グランドメニュー</p>
+        <div class="section__container t-grand__container">
+            <section class="t-grand__card">
+              <h3 class="t-grand__card-tit">パスタ</h3>
+              <div class="t-grand__card-body">
+                <ul class="t-grand__card-list">
+                  <li class="t-grand__card-item">
+                    <img src="./img/img_pasta1@2x.png" alt="">
+                    <p class="t-grand__card-name">テキストテキストテキストの○○○○風パスタ</p>
+                    <p class="t-grand__card-price">780 yen</p>
+                  </li>
+                  <li class="t-grand__card-item">
+                    <img src="./img/img_pasta2@2x.png" alt="">
+                    <p class="t-grand__card-name">テキストテキストテキストの○○○○風パスタ</p>
+                    <p class="t-grand__card-price">780 yen</p>
+                  </li>
+                  <li class="t-grand__card-item">
+                    <img src="./img/img_pasta3@2x.png" alt="">
+                    <p class="t-grand__card-name">テキストテキストテキストの○○○○風パスタ</p>
+                    <p class="t-grand__card-price">780 yen</p>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <section class="t-grand__card">
+              <h3 class="t-grand__card-tit">サラダ</h3>
+              <div class="t-grand__card-body">
+                <ul class="t-grand__card-list">
+                  <li class="t-grand__card-item">
+                    <img src="./img/img_salad1@2x.png" alt="">
+                    <p class="t-grand__card-name">○○○○風サラダ</p>
+                    <p class="t-grand__card-price">780 yen</p>
+                  </li>
+                  <li class="t-grand__card-item">
+                    <img src="./img/img_salad2@2x.png" alt="">
+                    <p class="t-grand__card-name">○○○○風サラダ</p>
+                    <p class="t-grand__card-price">780 yen</p>
+                  </li>
+                  <li class="t-grand__card-item">
+                    <img src="./img/img_salad3@2x.png" alt="">
+                    <p class="t-grand__card-name">○○○○風サラダ</p>
+                    <p class="t-grand__card-price">780 yen</p>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <section class="t-grand__card">
+              <h3 class="t-grand__card-tit">パン＆スイーツ</h3>
+              <div class="t-grand__card-body">
+                <ul class="t-grand__card-list">
+                  <li class="t-grand__card-item">
+                    <img src="./img/img_sweets1@2x.png" alt="">
+                    <p class="t-grand__card-name">○○○○サンド</p>
+                    <p class="t-grand__card-price">780 yen</p>
+                  </li>
+                  <li class="t-grand__card-item">
+                    <img src="./img/img_sweets2@2x.png" alt="">
+                    <p class="t-grand__card-name">○○○○サンド</p>
+                    <p class="t-grand__card-price">780 yen</p>
+                  </li>
+                  <li class="t-grand__card-item">
+                    <img src="./img/img_sweets3@2x.png" alt="">
+                    <p class="t-grand__card-name">○○○○サンド</p>
+                    <p class="t-grand__card-price">780 yen</p>
+                  </li>
+                  <li class="t-grand__card-item">
+                    <img src="./img/img_sweets4@2x.png" alt="">
+                    <p class="t-grand__card-name">○○○○サンド</p>
+                    <p class="t-grand__card-price">780 yen</p>
+                  </li>
+                  <li class="t-grand__card-item">
+                    <img src="./img/img_sweets5@2x.png" alt="">
+                    <p class="t-grand__card-name">○○○○サンド</p>
+                    <p class="t-grand__card-price">780 yen</p>
+                  </li>
+                  <li class="t-grand__card-item">
+                    <img src="./img/img_sweets6@2x.png" alt="">
+                    <p class="t-grand__card-name">○○○○サンド</p>
+                    <p class="t-grand__card-price">780 yen</p>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            <section class="t-grand__card">
+              <h3 class="t-grand__card-tit">コーヒー</h3>
+              <div class="t-grand__card-body-coffee">
+                <div class="t-grand__coffee__img">
+                  <img src="./img/img_drink1@2x.png" alt="">
+                </div>
+                <div class="t-grand__card-coffee__menu">
+                  <div class="t-grand__coffee__lists">
+                    <h4 class="t-grand__coffee-list__tit">コーヒー</h4>
+                    <ul class="t-grand__coffee-list">
+                      <li class="t-grand__coffee-item">
+                        <p class="t-grand__coffee-name">ブレンド</p>
+                        <p class="t-grand__coffee-price">500 yen</p>
+                      </li>
+                      <li class="t-grand__coffee-item">
+                        <p class="t-grand__coffee-name">カフェラテ</p>
+                        <p class="t-grand__coffee-price">500 yen</p>
+                      </li>
+                      <li class="t-grand__coffee-item">
+                        <p class="t-grand__coffee-name">豆乳ラテ</p>
+                        <p class="t-grand__coffee-price">500 yen</p>
+                      </li>
+                      <li class="t-grand__coffee-item">
+                        <p class="t-grand__coffee-name">抹茶ラテ</p>
+                        <p class="t-grand__coffee-price">500 yen</p>
+                      </li>
+                      <li class="t-grand__coffee-item">
+                        <p class="t-grand__coffee-name">ほうじ茶ラテ</p>
+                        <p class="t-grand__coffee-price">500 yen</p>
+                      </li>
+                      <li class="t-grand__coffee-item">
+                        <p class="t-grand__coffee-name">キャラメルラテ</p>
+                        <p class="t-grand__coffee-price">500 yen</p>
+                      </li>                      
+                    </ul>
+                  </div>
+                  <div class="t-grand__coffee__lists">
+                    <h4 class="t-grand__coffee-list__tit">紅茶</h4>
+                    <ul class="t-grand__coffee-list">
+                      <li class="t-grand__coffee-item">
+                        <p class="t-grand__coffee-name">ストレート</p>
+                        <p class="t-grand__coffee-price">500 yen</p>
+                      </li>
+                      <li class="t-grand__coffee-item">
+                        <p class="t-grand__coffee-name">ミルク</p>
+                        <p class="t-grand__coffee-price">500 yen</p>
+                      </li>
+                      <li class="t-grand__coffee-item">
+                        <p class="t-grand__coffee-name">アップル</p>
+                        <p class="t-grand__coffee-price">500 yen</p>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="t-grand__coffee__lists">
+                    <h4 class="t-grand__coffee-list__tit">ソフトドリンク</h4>
+                    <ul class="t-grand__coffee-list">
+                      <li class="t-grand__coffee-item">
+                        <p class="t-grand__coffee-name">バナナ</p>
+                        <p class="t-grand__coffee-price">500 yen</p>
+                      </li>
+                      <li class="t-grand__coffee-item">
+                        <p class="t-grand__coffee-name">オレンジ</p>
+                        <p class="t-grand__coffee-price">500 yen</p>
+                      </li>
+                      <li class="t-grand__coffee-item">
+                        <p class="t-grand__coffee-name">アップル</p>
+                        <p class="t-grand__coffee-price">500 yen</p>
+                      </li>
+                      <li class="t-grand__coffee-item">
+                        <p class="t-grand__coffee-name">マンゴー</p>
+                        <p class="t-grand__coffee-price">500 yen</p>
+                      </li>
+                      <li class="t-grand__coffee-item">
+                        <p class="t-grand__coffee-name">ミックス</p>
+                        <p class="t-grand__coffee-price">500 yen</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="t-grand__button">
+                <a href="./menu.html" class="section__btn"><span>その他のメニュー</span></a>
+              </div>
+            </section>
+
+        </div>
+      </section>
+
+      <section class="t-galley">
+        <h1 class="section__title t-galley__title">GALLEY</h1>
+        <p class="section__title-ja t-galley__sub-title">ギャラリー</p>
+        <div class="ballon-block">
+          <div class="left__ballon">
+            <img src="./img/img_balloon-gallery@2x.png" alt="">
+          </div>
+        </div>
+        <div class="section__container t-galley__container">
+          <ul class="t-galley__list">
+            <li class="t-galley__list-item">
+              <img src="./img/img_gallery1@2x.png" alt="">
+            </li>
+            <li class="t-galley__list-item">
+              <img src="./img/img_gallery2@2x.png" alt="">
+            </li>
+            <li class="t-galley__list-item">
+              <img src="./img/img_gallery3@2x.png" alt="">
+            </li>
+            <li class="t-galley__list-item">
+              <img src="./img/img_gallery4@2x.png" alt="">
+            </li>
+          </ul>
+        </div>
+        <div class="t-galley__button">
+          <a href="#" class="section__btn"><span>インスタグラムを見る</span></a>
+        </div>
+      </section>
+
+      <section class="t-news">
+        <h1 class="section__title t-news__title">NEWS</h1>
+        <p class="section__title-ja t-news__sub-title">お知らせ</p>
+        <div class="section__container t-news__container">
+          <div class="t-news__block__latest">
+            <article class="t-news__article">
+            <a href="./post.html" class="t-news__link" target="_blank">
+                <p class="section__tag t-news__latest-tag">
+                  <span>カテゴリー名</span>
+                </p>
+                <div class="t-news__article-img"><img src="./img/img_news1@2x.png"  alt=""></div>
+                <h3 class="t-news__article-tit">ダミー_国内外から賞賛を受けた選りすぐりのデザイナーが集結し、ガーデニングの設計・建築から料理まで、あらゆる空間が誕生。</h3>
+                <p class="t-news__article-text">ダミー_国内外から賞賛を受けた選りすぐりのデザイナーが集結し、ガーデニングの設計・建築から料理まで、あらゆる空間が誕生。</p>
+                <p class="t-news__article-date">2021.01.01</p>
+              </a>
+            </article>
+          </div>
+          <div class="t-news__block__other">
+            <article class="t-news__article t-news__article__other">
+              <a href="./post.html" class="t-news__link" target="_blank">
+                <p class="section__tag t-news__other-tag">
+                  <span>カテゴリー名</span>
+                </p>
+                <div  class="t-news__article-img"><img src="./img/img_news1@2x.png" alt=""></div>
+                <h3 class="t-news__article__other-tit">ダミー_国内外から賞賛を受けた選りすぐりのデザイナーが集結し、あらゆる空間が誕生。</h3>
+                <p class="t-news__article__other-date">2021.01.01</p>
+              </a>
+            </article>
+            <article class="t-news__article t-news__article__other">
+              <a href="./post.html" class="t-news__link" target="_blank">
+                <p class="section__tag t-news__other-tag">
+                  <span>カテゴリー名</span>
+                </p>
+                <div  class="t-news__article-img"><img src="./img/img_news1@2x.png" alt=""></div>
+                <h3 class="t-news__article__other-tit">ダミー_国内外から賞賛を受けた選りすぐりのデザイナーが集結し、あらゆる空間が誕生。</h3>
+                <p class="t-news__article__other-date">2021.01.01</p>
+              </a>
+            </article>
+            <article class="t-news__article t-news__article__other">
+              <a href="./post.html" class="t-news__link" target="_blank">
+                <p class="section__tag t-news__other-tag">
+                  <span>カテゴリー名</span>
+                </p>
+                <div  class="t-news__article-img"><img src="./img/img_news1@2x.png" alt=""></div>
+                <h3 class="t-news__article__other-tit">ダミー_国内外から賞賛を受けた選りすぐりのデザイナーが集結し、あらゆる空間が誕生。</h3>
+                <p class="t-news__article__other-date">2021.01.01</p>
+              </a>
+            </article>
+            <article class="t-news__article t-news__article__other">
+              <a href="./post.html" class="t-news__link" target="_blank">
+                <p class="section__tag t-news__other-tag">
+                  <span>カテゴリー名</span>
+                </p>
+                <div  class="t-news__article-img"><img src="./img/img_news1@2x.png" alt=""></div>
+                <h3 class="t-news__article__other-tit">ダミー_国内外から賞賛を受けた選りすぐりのデザイナーが集結し、あらゆる空間が誕生。</h3>
+                <p class="t-news__article__other-date">2021.01.01</p>
+              </a>
+            </article>
+          </div>
+        </div>
+        <div class="t-news__button">
+          <a href="./news.html" class="section__btn"><span>過去のお知らせ</span></a>
+        </div>
+      </section>
+
+      <!--access-->
+      <section class="t-access">
+        <h1 class="section__title t-access__title">ACCESS</h1>
+        <p class="section__title-ja t-access__sub-title">アクセス</p>
+        <div class="ballon-block">
+          <div class="left__ballon t-access__ballon">
+            <img src="./img/img_balloon-access@2x.png" alt="">
+          </div>
+        </div>
+        <div class="section__container t-access__container">
+          <iframe class="outline" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6480.074416602982!2d139.5758352261497!3d35.70070197075896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018ee39b555205f%3A0xabb26a0a2fbda595!2z44CSMTgwLTAwMDMg5p2x5Lqs6YO95q2m6JS16YeO5biC5ZCJ56Wl5a-65Y2X55S677yR5LiB55uu!5e0!3m2!1sja!2sjp!4v1677463072012!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="t-access__info">
+            <dl class="t-access__info__list">
+              <div class="t-access__info__row">
+                <dt class="t-access__info__term">住所</dt>
+                <dd class="t-access__info__description">〒000-0000<br>東京都武蔵野市吉祥寺南町一丁目</dd>
+              </div>
+              <div class="t-access__info__row">
+                <dt class="t-access__info__term">TEL</dt>
+                <dd class="t-access__info__description">0123-456-789</dd>
+              </div>
+              <div class="t-access__info__row">
+                <dt class="t-access__info__term">Mail</dt>
+                <dd class="t-access__info__description">example@mail.com</dd>
+              </div>
+            </dl>
+            <dl class="t-access__info__list">
+              <div class="t-access__info__row">
+                <dt class="t-access__info__term">営業時間</dt>
+                <dd class="t-access__info__description">7:00〜21:00<br>※ラストオーダー 20:30</dd>
+              </div>
+              <div class="t-access__info__row">
+                <dt class="t-access__info__term">定休日</dt>
+                <dd class="t-access__info__description">水曜日</dd>
+              </div>
+              <div class="t-access__info__row">
+                <dt class="t-access__info__term">座席</dt>
+                <dd class="t-access__info__description">テーブル20席 ／ カウンター席6席</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--footer-->
+    <footer class="footer">
+      <div class="footer__container">
+        <ul class="footer__icon__list">
+          <li class="footer__icon__item"><a href=""><img src="./img/icon_twitter-light@2x.png" alt=""></a></li>
+          <li class="footer__icon__item"><a href=""><img src="./img/icon_instagram-light@2x.png" alt=""></a></li>
+          <li class="footer__icon__item"><a href=""><img src="./img/icon_youtube-light@2x.png" alt=""></a></li>
+        </ul>
+        <div class="footer__copyright">
+          <small class="footer__copyright__text">©︎2000-2021 open cafe. All Rights Reserved.</small>
+        </div>
+      </div>
+    </footer>
+    <!--footer-->
+  </body>
+</html>
