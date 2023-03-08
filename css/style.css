@@ -94,9 +94,9 @@ main {
 }
 
 .section__container {
-  max-width: 100%;
+  max-width: 1280px;
   padding: 0 90px;
-  width: 1100px;
+  width: 100%;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -131,6 +131,15 @@ main {
   border-style: solid;
   border-width: 14px 8px 14px 0;
   border-right-color: transparent;
+}
+@media screen and (max-width: 767px) {
+  .section__tag span {
+    padding: 2px 8px;
+    font-size: 10px;
+  }
+  .section__tag span::after {
+    border-width: 10px 8px 10px 0;
+  }
 }
 
 .outline {
@@ -485,7 +494,7 @@ top
 }
 @media screen and (max-width: 767px) {
   .top__pickup__news {
-    bottom: 150px;
+    bottom: 100px;
     padding: 0 16px;
     right: 50%;
     transform: translateX(50%);
@@ -500,8 +509,8 @@ top
 
 .pickup__tag {
   position: absolute;
-  top: -10px;
-  left: 5px;
+  top: 25px;
+  left: -10px;
 }
 
 .pickup__ballon {
@@ -983,15 +992,7 @@ grand
 
 .t-grand__container {
   margin-top: 60px;
-  max-width: 1280px;
-  width: 100%;
-  padding: 0;
   position: relative;
-}
-@media (min-width: 960px) {
-  .t-grand__container {
-    padding: 0 90px;
-  }
 }
 @media (min-width:768px) and (max-width: 959px) {
   .t-grand__container {
