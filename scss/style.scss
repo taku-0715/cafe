@@ -172,8 +172,9 @@ main {
     }
   
       @include mq('sp') {
-        padding: 2px 4px; 
+        padding: 2px 6px; 
         font-size: 10px;
+        width: 90px; 
 
         &::after {
           border-width: 10px 8px 10px 0;
@@ -1467,9 +1468,10 @@ top__news
   @include mq('sp') {
     span {
       font-size: 12px;
+      width: 100px;
 
       &::after {
-        border-width: 14px 8px 15px 0;
+        border-width: 12px 8px 11px 0;
       }
     }
   } 
@@ -1566,7 +1568,7 @@ news__block__other
       font-size: 8px;
 
       &::after {
-        border-width: 12px 8px 13px 0;
+        border-width: 10px 8px 10px 0; 
         
       }
     }
