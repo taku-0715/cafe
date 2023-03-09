@@ -516,7 +516,7 @@ top
 @media screen and (max-width: 767px) {
   .pickup__tag {
     font-size: 12px;
-    width: 90px;
+    width: 100px;
   }
 }
 
