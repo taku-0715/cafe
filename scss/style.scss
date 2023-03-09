@@ -597,10 +597,12 @@ top
   top: 25px; 
   left: -10px; 
 
-  @include mq('sp') {
-    font-size: 12px;
-    width: 100px;
-  } 
+  span {
+    @include mq('sp') {
+      font-size: 12px;
+      width: 90px;
+    } 
+  }
 }
 
 .pickup__ballon {
