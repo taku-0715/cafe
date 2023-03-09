@@ -134,7 +134,7 @@ main {
 }
 @media screen and (max-width: 767px) {
   .section__tag span {
-    padding: 2px 8px;
+    padding: 2px 4px;
     font-size: 10px;
   }
   .section__tag span::after {
