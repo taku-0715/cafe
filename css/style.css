@@ -518,6 +518,9 @@ top
     font-size: 12px;
     width: 100px;
   }
+  .pickup__tag span::after {
+    border-width: 13px 8px 11px 0;
+  }
 }
 
 .pickup__ballon {
