@@ -601,6 +601,9 @@ top
     @include mq('sp') {
       font-size: 12px;
       width: 100px;
+      &::after {
+        border-width: 13px 8px 11px 0;
+      }
     } 
   }
 }
