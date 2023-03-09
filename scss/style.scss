@@ -172,7 +172,7 @@ main {
     }
   
       @include mq('sp') {
-        padding: 2px 8px; 
+        padding: 2px 4px; 
         font-size: 10px;
 
         &::after {
