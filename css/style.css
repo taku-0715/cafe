@@ -514,9 +514,9 @@ top
   left: -10px;
 }
 @media screen and (max-width: 767px) {
-  .pickup__tag {
+  .pickup__tag span {
     font-size: 12px;
-    width: 100px;
+    width: 90px;
   }
 }
 
